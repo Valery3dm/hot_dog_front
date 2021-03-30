@@ -1,0 +1,12 @@
+.input-form{
+    width: 100%;
+}
+
+.input-form input{
+    width: 96%;
+}
+
+.input-form button{
+    margin-top: 10px;
+    width: 100%;
+} 

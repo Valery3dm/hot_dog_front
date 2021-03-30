@@ -1,0 +1,66 @@
+img {
+    width: 100%;
+}
+
+input {
+    width: 80%;
+}
+
+textarea {
+    width: 80%;
+    height: 80px;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 2px 3px 18px 1px rgb(0 0 0 / 48%);
+    width: 335px;
+    height: 100%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+.buttons button {
+    background: #9c9a9a;
+    margin-top: 5px;
+}
+
+
+.card .name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card .type {
+    font-size: 15px;
+    font-weight: 500;
+    color: #9c9a9a;
+    padding-top: 15px;
+}
+
+.card .description{
+    padding-top: 15px;
+}
+
+.edit-btn{
+    width: 100%;
+    background: #9c9a9a;
+    margin-top: 10px;
+    height: 34px;
+}
